@@ -1,0 +1,304 @@
+1.Hello world
+int main()
+{
+printf("Hello World!");
+return 0;
+}
+
+
+2.Comments in C are written with special characters. Insert the missing parts:
+//This is a single-line comment
+/*This is a multi-line comment */
+
+
+3.Create a variable named myNum and assign the value 50 to it.
+int myNum= 50;
+
+
+
+4.Use the correct format specifier to output the value of myNum:
+int myNum = 15;
+printf("%d", myNum);
+}
+
+
+5.Display the sum of 5 + 10, using two variables: x and y.
+int x= 5;
+int y = 10;
+printf("%d", x + y);
+}
+
+
+6.Fill in the missing parts to create three variables of the same type, using a comma-separated list:
+intx = 5,y = 6,z = 50;
+printf("%d", x + y + z);
+}
+
+
+7.Add the correct data type for the following variables:
+int myNum = 5;
+float myFloatNum = 5.99;
+char myLetter = 'D';
+
+
+8.Add the correct format specifier to print the value of the following variable:
+char myLetter = 'D';
+printf("%c", myLetter);
+}
+
+
+9.Fill in the blanks to multiply 10 with 5, and print the result.
+int x = 10;
+int y = 5;
+printf("%d", x * y);
+}
+
+
+10.Fill in the blanks to divide 10 by 5, and print the result
+int x = 10;
+int y = 5;
+printf("%d", x /y);
+}
+
+
+11.Use the correct operator to increase the value of the variable x by 1
+int x = 10;
+x++;
+
+
+12.Use the addition assignment operator to add the value 5 to the variable x
+int x = 10;
+x += 5;
+
+
+13.Print "Hello World" if x is greater than y.
+int x = 50;
+int y = 10;
+if(x >y) {
+  printf("Hello World");
+} 
+
+
+14.Print "Hello World" if x is equal to y
+int x = 50;
+int y = 50;
+if(x ==y) {
+  printf("Hello World");
+} 
+
+
+15.Print "Yes" if x is equal to y, otherwise print "No"
+ int x = 50;
+int y = 50;
+if(x ==y) {
+  printf("Yes");
+} 
+else{
+  printf("No");
+}
+
+
+16.Print "1" if x is equal to y, print "2" if x is greater than y, otherwise print "3"
+int x = 50;
+int y = 50;
+if(x == y) {
+  printf("1");
+} 
+else if (x > y) {
+  printf("2");
+} else {
+  printf("3");
+}
+
+
+17.Insert the missing parts to complete the following switch statement
+int day = 2;
+switch (day) {
+  case 1:
+    printf("Monday");
+    break;
+  case 2:
+    printf("Sunday");
+    break;
+}
+
+
+18.Complete the switch statement, and add the correct keyword at the end to specify 
+some code to run if there is no case match in the switch statement
+int day = 4;
+switch (day) {  
+case 1:
+  printf("Saturday");
+    break;
+case 2:
+    printf("Sunday");
+break;
+default:
+  printf("Weekend");
+}
+
+
+19.Print i as long as i is less than 6.
+int i = 1;
+while(i < 6) {
+  printf("%d\n", i);  
+i++;
+}
+
+
+20.Use the do/while loop to print i as long as i is less than 6
+int i = 1;
+do{
+  printf("%d\n", i);
+  i++;
+}
+while (i < 6);
+
+
+
+21.Use a for loop to print "Yes" 5 times
+for(int i = 0; i < 5; i++) {
+  printf("Yes\n");
+}
+
+
+22.Stop the loop if i is 5
+for (int i = 0; i < 10; i++) {
+  if (i == 5) {
+    break;
+  }
+  printf("%d\n", i);
+}
+
+
+23.In the following loop, when the value is "4", jump directly to the next value
+for (int i = 0; i < 10; i++) {
+  if (i == 4) {
+    continue;
+  }
+  printf("%d\n", i);
+}
+
+
+
+24.Create an array of type int called myNumbers
+int myNumbers[]=
+ {25, 50, 75, 100};
+
+
+25.Print the value of the second element in the myNumbers array
+int myNumbers[] = {25, 50, 75, 100};
+printf("%d", myNumbers[1]);
+
+
+26.Change the value of the first element to 33
+int myNumbers[] = {25, 50, 75, 100};
+myNumbers[0]=33;
+
+
+27.Loop through the elements in the array using a for loop
+int myNumbers[] = {25, 50, 75, 100};
+int i;
+for(i = 0; i < 4; i++) {
+  printf("%d\n", myNumbers[i]);
+}
+
+
+28.Fill in the missing part to create a "string" named greetings, and assign it the value "Hello".
+char greetings[] = "Hello";
+
+
+29.Fill in the missing part to create a "string" named greetings, and assign it the value "Hi".
+char greetings[] = {'H', 'i','\0'};
+
+
+30.Print the first character in the greetings string:
+char greetings[] = "Hello World!";
+printf("%s", greetings);
+
+
+31.Use the correct format specifier to output the string:
+char greetings[] = "Hello World!";
+printf("%c", greetings[0]);
+
+
+32.Print the first character in the greetings string
+int myAge = 43;
+int*ptr = &myAge;
+
+
+33.Create a pointer variable called ptr, that points to the int variable myAge
+void myFunction() {
+printf("I just got executed!");
+}
+int main() {
+  myFunction();
+ return 0;
+}
+
+
+34.Create a method named myFunction and call it inside main()
+void myFunction() {
+  printf("I just got executed!");
+}
+int main() {
+  myFunction();
+  myFunction();
+ return 0;
+}
+
+
+35.Add a name parameter of type char (string) to myFunction.
+void myFunction(char name[]) {
+ printf("Hello %s\n", name);
+}
+int main() {
+  myFunction("Liam");
+  myFunction("Jenny");
+  myFunction("Anja");
+  return 0;
+}
+
+
+36.Insert the missing part to print the number 8 in main, by using a specific keyword inside myFunction:
+int myFunction(int x) {
+  return 5 + x;
+}
+int main() {
+  printf("%d", myFunction(3));
+  return 0;
+}
+
+
+
+37.Fill in the missing part to create a Car structure:
+structCar {
+  char brand[50];
+  char model[50];
+  int year;
+};
+
+
+38.Fill in the missing parts to create a struct variable of "Car" named "car1" inside main
+struct Car {
+  char brand[50];
+  char model[50];
+  int year;
+};
+int main() {
+  struct Car car1;
+  return 0;
+}
+
+
+39.Fill in the missing parts to assign the following values to the car1 variable:
+"BMW" to brand, "X5" to model and 1999 to year
+struct Car {
+  char brand[50];
+  char model[50];
+  int year;
+};
+int main() {
+  struct Car car1 = {"BMW", "X5", 1999};
+  return 0;
+}
