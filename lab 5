@@ -1,0 +1,21 @@
+public class employee1 {
+    int empId;
+    String empName;
+
+    employee1(int id, String name) {
+        this.empId = id;
+        this.empName = name;
+
+    }
+
+    void info() {
+        System.out.println("Id: " + empId + " Name : " + empName);
+    }
+
+    public static void main(String args[]) {
+        employee1 obj1 = new employee1(4971, "Emon");
+        employee1 obj2 = new employee1(4971, "Emon");
+        obj1.info();
+        obj2.info();
+    }
+}
