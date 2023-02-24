@@ -24,7 +24,7 @@ public class Room {
 
     public static void main(String[] args) {
         new Room();
-        Room a1 = new Room(101, "OOP lab room", 500.5f, true);
+        Room a1 = new Room(113, "OOP lab room", 500.5f, true);
         a1.display();
     }
 }
